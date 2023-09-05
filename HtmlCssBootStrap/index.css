@@ -1,0 +1,261 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    padding : 0% !important;
+}
+
+#navbarCollapse {
+    font-size: 1.2vw;
+    flex-direction: row-reverse;
+}
+
+.carousel-item>.carousel-caption {
+    position: sticky;
+    bottom: 9rem;
+    color: #fff;
+    text-align: left;
+    margin-left: 45%;
+}
+
+.carousel-item>.carousel-caption>a {
+    background-color: azure;
+}
+
+#icon {
+    margin-left: 25%;
+    height: 40px;
+    width: 60px;
+}
+
+.card-group {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bi {
+    font-size: 100px;
+    padding: 25px;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    color: white;
+}
+
+.bi-pencil-fill {
+    background-color: royalblue;
+}
+
+.bi-pc-display {
+    background-color: red;
+}
+
+.bi-basket2 {
+    background-color: rgb(243, 162, 82);
+}
+
+.bi-quote {
+    font-size: 30px;
+    padding: 4px !important;
+    border-radius: 50%;
+    background-color: rgb(52, 58, 247);
+    margin-left: 65px;
+}
+
+.card > .card-img-top {
+    width: 50%;
+}
+
+.card {
+    border-style: none !important;
+    align-items: center;
+    text-align: center;
+}
+
+#Add {
+    width: 100%;
+    min-height: 30%;
+}
+
+#texts {
+    line-height: 2;
+}
+
+#List {
+    width: 52%;
+    float: right;
+    margin-top: 8%;
+}
+
+#Plastic {
+    text-align: center;
+    margin-top: 3%;
+}
+
+/* Zig Zag */
+.section-padding {
+    padding: 0px 0;
+}
+
+.custom-border {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+
+.custom-border:after {
+    background: linear-gradient(-45deg, #fff 10px, transparent 0),
+        linear-gradient(45deg, #fff 10px, transparent 0);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 12px 32px;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+}
+
+.banner-area:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav-item {
+    /* display: inline-block;
+    font-size: 18px; */
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-item:hover {
+    /* text-decoration: 2px underline blue; */
+    border-bottom: 3px solid blue;
+}
+
+h4 {
+    color: #0d6efd;
+}
+h4:hover {
+    color: rgb(187, 240, 52);
+}
+
+.h5,
+h5,
+.h2,
+h2 {
+    color: white;
+}
+
+.carousel-caption>#img-text {
+    font-size: 2.25rem;
+}
+
+#button-on-img {
+    border: 3px solid black;
+    background-color: aliceblue;
+}
+
+#footer {
+    border-top: 2px solid lightgrey;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.row1 {
+    content: "";
+    clear: both;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    #footer {
+        height: 50px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .carousel-item>.carousel-caption {
+        position: sticky;
+        bottom: 9rem;
+        color: #fff;
+        text-align: left;
+        margin-left: 10%;
+        font-size: 18px;
+    }
+
+    .carousel-caption>#img-text {
+        font-size: 18px;
+    }
+
+    .carousel-caption>a {
+        height: 8px;
+        width: 30px;
+    }
+
+    #respo {
+        font-size: 10px !important;
+        width: 80px;
+        height: 38px;
+    }
+
+    .card {
+        float: left;
+        width: 30%;
+        height: 15%;
+    }
+
+    .card-body {
+        padding: 0% !important;
+        font-size: 15px !important;
+        padding-top: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    h4 {
+        font-size: 17px !important;
+    }
+
+    pre {
+        overflow: hidden !important;
+    }
+
+    .carousel-inner {
+        height: 50vw;
+    }
+
+    .bi {
+        font-size: 30px;
+        padding: 10px;
+        height: 65px;
+        width: 65px;
+        border-radius: 50%;
+        color: white;
+    }
+
+    .carousel-item .d-md-block {
+        display: block !important;
+    }
+
+    .row1 {
+        display: inline-block;
+    }
+
+    #footer {
+        height: 50px;
+        padding-top: 10px;
+    }
+}

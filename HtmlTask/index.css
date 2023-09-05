@@ -1,0 +1,235 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#event-img {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 80%;
+}
+#event-img-1 {
+    margin-bottom: 10px;
+    height: 110px;
+    width: 80%;
+}
+.bg {
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 155px;
+    width: 100%;
+    height: 135px;
+}
+
+#admin {
+    color: white;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#main-div {
+    min-width: 30%;
+    background-color: #ccc;
+}
+
+#side-bar {
+    width: 15%;
+    font-size: 1.8vw;
+    min-height: 1620px;
+    background-color: lightgrey;
+    float: left;
+}
+
+#side-body {
+    width: 84%;
+    min-height: 800px;
+    background-color: white;
+    float: right;
+}
+
+#headings {
+    padding: 10px 10px 10px 10px;
+    margin-right: -0px;
+    font-size: 1.8vw;
+    font-family :'Courier New';
+    background-color: lightgray;
+    border-bottom: 2px solid darkgray;
+}
+
+#p-text {
+    background-color: white;
+}
+
+#img {
+    margin-top: 0px;
+    padding: 5px;
+    width: 100%;
+}
+
+#event {
+    text-align: center;
+}
+
+#event-text {
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.8vw;
+    background-color: rgba(23, 10, 102, 0.982);
+    width: 100%;
+    min-height: 30px;
+}
+
+span {
+    border-bottom: 2px solid darkgray;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(16, 5, 5, 0.745);
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.row1 {
+    width: 79.8%;
+    margin-top: 0.6%;
+    height: 250px;
+}
+
+h4 {
+    margin-top: -3%;
+    margin-left: -3%;
+    margin-right: -3%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #ccc;
+    padding: 10px 0px 10px 5px;
+    font-size: 1.5vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal; 
+}
+
+.icon {
+    margin-top: -11%;
+    float: right;
+    width: 10%;
+    height: 10%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+form {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10px;
+}
+
+button {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.ques {
+    height: 150px;
+    width: 100%;
+}
+
+.column1 {
+    width: 93.5%;
+}
+.column1 img  {
+    width: 100%;
+    height: 250px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 32%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 2px solid darkgray;
+    height: 100%;
+}
+
+/* Clear floats after the columns */
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 10px;
+}
+#news {
+    width: 65%;
+    min-height: 950px;
+    font-size: 1.2vw;
+}
+
+#classes {
+    margin-top: -490px;
+}
+
+#classes #img {
+    margin-left: -4%;
+    margin-top: -2%;
+    width: 108%;
+}
+
+#text-img {
+    float: right;
+    width: "35%";
+    height: "35%";
+    margin: 40px;
+}
+
+form input {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+#form1 {
+    min-height: 450px;
+}
+
+#register {
+    margin-top: -255px;
+    margin-left: 94.5%;
+    height: 100%;
+    width: 28%;
+}
+
+#register #img {
+    width: 108%;
+    margin-left: -4%;
+    margin-right: -8%;
+}
+
+#h {
+    margin-top: -1.5%;
+    margin-left: -1.5%;
+    margin-right: -1.5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#news .icon {
+    width: 4%;
+    height: 4%;
+    margin-top: -40px;
+}
+
+#form1 .icon {
+    margin-top: -40px;
+}
+
+#m_text {
+    margin-left: 39.5%;
+    font-size: 19px;
+}

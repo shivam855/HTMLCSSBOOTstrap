@@ -1,0 +1,341 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 0% !important;
+}
+
+#navbarCollapse {
+  font-size: 1.2vw;
+  flex-direction: row-reverse;
+}
+
+.carousel-item>img {
+  height: 400px;
+}
+
+.carousel-item>.carousel-caption {
+  position: sticky;
+  bottom: 9rem;
+  color: #fff;
+  text-align: left;
+  margin-left: 45%;
+}
+
+.carousel-item>.carousel-caption>a {
+  background-color: azure;
+}
+
+#icon {
+  margin-left: 25%;
+  height: 40px;
+  width: 60px;
+}
+
+.card-group {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.bi {
+  font-size: 100px;
+  padding: 25px;
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  color: white;
+}
+
+.bi-pencil-fill {
+  background-color: royalblue;
+}
+
+.bi-pc-display {
+  background-color: red;
+}
+
+.bi-basket2 {
+  background-color: rgb(243, 162, 82);
+}
+
+.bi-quote {
+  font-size: 30px;
+  padding: 11px !important;
+  border-radius: 50%;
+  background-color: rgb(71, 77, 255);
+  margin-left: 65px;
+  display: -webkit-box;
+  width: 40px;
+  height: 40px;
+  font: icon;
+}
+
+.card>.card-img-top {
+  width: 50%;
+}
+
+.card {
+  border-style: none !important;
+  align-items: center;
+  text-align: center;
+}
+
+#Add {
+  width: 100%;
+  min-height: 30%;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+#texts {
+  line-height: 2;
+}
+
+#List {
+  width: 52%;
+  float: right;
+  margin-top: 8%;
+}
+
+#Plastic {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 100px;
+  padding-right: 50px;
+}
+
+/* Zig Zag */
+.section-padding {
+  padding: 2px 0;
+}
+
+.custom-border {
+  position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+}
+
+.custom-border:after {
+  background: linear-gradient(-45deg, #fff 10px, transparent 0),
+    linear-gradient(45deg, #fff 10px, transparent 0);
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 12px 32px;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+}
+
+.banner-area:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav-item {
+  /* display: inline-block;
+  font-size: 18px; */
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-item:hover {
+  /* text-decoration: 2px underline blue; */
+  border-bottom: 3px solid blue;
+}
+
+h4 {
+  color: #0d6efd;
+}
+
+h4:hover {
+  color: rgb(187, 240, 52);
+}
+
+.h5,
+h5,
+.h2,
+h2 {
+  color: white;
+}
+
+.carousel-caption>#img-text {
+  font-size: 2.25rem;
+}
+
+#button-on-img {
+  border: 3px solid black;
+  background-color: aliceblue;
+}
+
+#footer {
+  border-top: 2px solid lightgrey;
+  height: 50px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#footer p {
+  text-align: center;
+}
+
+.row1 {
+  content: "";
+  clear: both;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-item>.carousel-caption {
+    position: sticky;
+    bottom: 9rem;
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .carousel-caption>#img-text {
+    font-size: 18px;
+  }
+
+  .carousel-caption>a {
+    height: 8px;
+    width: 30px;
+  }
+
+  #respo {
+    font-size: 10px !important;
+    width: 80px;
+    height: 38px;
+  }
+
+  .card {
+    float: left;
+    width: 30%;
+    height: 15%;
+  }
+
+  .card-body {
+    padding: 0% !important;
+    font-size: 15px !important;
+    padding-top: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  h4 {
+    font-size: 17px !important;
+  }
+
+  pre {
+    overflow: hidden !important;
+  }
+
+  .carousel-inner {
+    height: 50vw;
+  }
+
+  .carousel-item .d-md-block {
+    display: block !important;
+  }
+
+  .row1 {
+    display: inline-block;
+    width: 100%;
+  }
+
+  #footer {
+    height: 50px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .card-group,
+  #Add {
+    display: inline-block !important;
+    margin: 0 auto !important;
+    width: 100%;
+  }
+
+  #List {
+    width: 100%;
+    padding-right: 4% !important;
+    padding-left: 3% !important;
+    margin-top: 10px !important;
+    float: left !important;
+  }
+
+  .tatoo,
+  .card-group>.card {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .carousel-caption>a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent !important;
+  }
+
+  .bi {
+    width: 100px;
+    height: 100px;
+    font-size: 63px;
+    padding: 0%;
+  }
+
+  .bi-quote {
+    margin-left: 5px !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 11px !important;
+    font: icon;
+  }
+
+  #respo {
+    width: 100px;
+  }
+
+  #Plastic {
+    margin-left: 0% !important;
+    padding-right: 0% !important;
+  }
+
+  .carousel-item>img {
+    height: 50vw;
+  }
+
+  .carousel-item>.carousel-caption {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .row1 {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

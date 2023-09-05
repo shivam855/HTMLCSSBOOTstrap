@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA0lBMVEUA33YAq17/////9fXf6/EAvGYA3m8Ap1MA3nLq7vIA3W0AqVoAplHl7vZ4yaP/9vpnw5ds5qP/9vzo7vj5/vzx/feHzq9f5Z0FsGIApEyD6K9n6aMc4oIAq1ip8srX+ejH99269daJ7bd4zZ2R27Xg9uo3tnP0/vrJ99+B06ddxo7c9unG7Nex5MiY78B266wz44hS5pei3bwguXFCwoNqy5jT7t9F443I7Niv8s266dBW5plTw4mT7rwo4oSz5cq73dOd1L5Yv41vxZxi0Zo4wH6ZBhYdAAAMMklEQVR4nOXd6UPbuBIAcCsBO7HM5oXGSzhCgBKu0pCDOyyv2z7+/3/pWXbI4XNGmlF3Qd/aD4VfNaPLOpwad+mE/ePD4d7++GF0cOA4m0KIbnc6vb2bTCbPYafD/fMdxn877D+d7Iwc33ddtxEVRxUljIpUxfN2e92rr6f3A0Ynl7D/1H5wYpmzXubCRVHQoHf2Mnk85/lNOIT94cxx/YwtX/ju9DwxPX1m+G2oheFx2/HdfFyJMGF6QXB1GhL/RqTCb4ezhl+iqxDOlben3yh/KTrh+dO4UVZ5MGGM7J1N6GqSSnix71bVHlQ4r0mqnCQRhsMRjAcVKmTQvRxQ/HIEwv6NA4hOrFC1r72rx3+AsD92XTAPJYyj9cw4WA2FFw/g8NQRqmCdGhqNhBdjrA8tVEazejQQ9meI9NMXqli9vf4NwvAGX3+aQlWPL9rtqqawM3RQ7YuhUBkvNUfmesKjka/n0xYK4XX10lFH2LnRSUBTYZSOVzpjOQ3hsW6AGgpVqH63IAz3tQPUWCiERouDFR4dmFSgsVDILrYakcITvS6CThhF6h1uUQclHIwMK5BAqBpV1AwZIzx2TCuQRChkDxOpCOFfBn0EqTBqcC4ZhJ2ZWRtKKhTeG3iEAxWGr+YpSCiM2lRoMgKF/QOKCCUUCimB8w2Y8Khgefc3CqNBHKy9AQkPaVKQVijE7imVkBJIKRQBhAgQDimBpELhAXqNauEJKZBWKLw7cyExkFgIIFYJaUOUXii8r2ZC0kaGRViZi+VCeiC9sKpFLRUe0QMZhGL3v7rCPr2PRSi8sg84JcKQbCzKLZTdktWbYmHnlQPIIoyIxZOpYuGMaLpkQyjkLV5I3hGyCkv6jCLhMU8NsglF4WJxgXBAsehkVSh6BZP+AuGIC8gnlFOMkHq4bUNYNELNFXKMZfiFwssd2+QJebp6fqHs5n19yxO2udpRZqGQLzAhZ4zyCnO7jKyww+ljFoogG6dZ4Q1njHIL5VW18IIXyCwUXmY7Q1rY4evrrQjlNP39NC3kGnDbEgovvaaREobMNcgvFMGgVMjczNgQphubdWGfO0YtCNOrNuvCGXuQWhCm5vtrQu6ewo5QeNeFwjF/FdoQrlfiqvCCPwtxQulFReKJwXWB8MFCFWKE8uzPHz/+PvPQwrXp/orQQkOKEno/N7ZU+SNAE4PHXOGOjSqEC73/bG3E5cufaOJqJi6FAytAsHABVER0oPbuc4R7FroKuHAFuLGxhSbKr1lhaMUHFa4BFXEXSeyFGeHQThXChCmgRqAupxgLIfe8ECPMAPGBuuww3oVWenugMAeoiLgWddHrvwvblqoQIMwFojuNxSRqLuxYykKAsACIzsX3Zbe58MlWkFYKC4HYXPQma0IbswqQ0PtZCER2Gu/jmkQ4sOWrEpbUIDpQ5x8UE+GTtTQsF1YAccR5mCZCO4PuSmElMArUP8DE+Xcax+aIrUIIAEa1eAaeEicjt1h4bK0lLROCgBtbf4MrMQnTWHhjL0iLhTDgxsYPcMcv7xZCe75iIRS4BReK3rvwm8UgLRJCgZgoTRYzlPDQXl9RJAQDN7bgLU2SiEpoYaW7QogA/uqBgUK+zYUWffnC0qHaWvkC7w7jkgj7NqswTwivwS+/cJNE9ZHGsTmvyBciQhS7dKqORjl2e8McIQaIXnK7ioVWFvMLhYgQRQOFPFPC8MAmMC1kDFFVuoNI+M2sN3T90uvZKoScIapKoIRGw+6G89f19RBzC8GakBuo+nyndmJQh+5OvaVKG/6/tCrk6ybei/waCQ3WEf12qx6XFvyjx4qQOQdj4V0k1G9K/b05UBGhtbgUsoeoiLdIOR3tptQ/WQAj4g2QuBCydhOL0us457oNjT/crq+UbWAtvgsxg23NEFVl99zRnRy6h2tAcKBuooG6ORiX4NHR3BHsPrXqdR3iJhqoH6LqB3139Mbd/nEGCAzUTRzQJAfjnzRxdL6MNhrP21mgIlb/Y5vIGjQJ0UR4gu8sGs51Tg0CA3XTYohGRV46+LlTw7kvAEKImxZDVAlfHPQiTcMZFAIBubjJP1RbE7452CFN46AMWD2A27SXg3GZOsgdCo3XsBRYFaju/+zlYFy6zisK6DSKc3ARqCUDOHfchIYoDTAS4oaljVluNwHNRXfWAgqNhmomQvewsgpLAtWd1eswIVGI6gizgzU40R3XgUI6ID5K24AoLQhUVYMw4ZdfZEAhkELHCUHCnE7D3akDhTTdxLxg69Bp7IDCNBuoSQ1ChIQhqiN03LYWMc5BkJCqm1gIkf1hNHGC1uJqLr7XYLWQYqi2LsTvuvTbMOFKLi6BVULSHEyEGktt6ED1x8u/KxfS5qAqU0dns5C7D+sz6q2heifIv1n5q1IhcQ6q8qYxP1SVsg+txfBp73Cw+v9RJiQPUfV9TWeOr2oRmotq1X/tzyVC+hCN5/iaO9jBuZguxUIOoFqn0f3G7e4AcxEqZMjBRKh9gwI4F2FChhyMhd+117wxuQgQsoSoiNe8tb9bIDqNaiFPiIr4u4X+tyfEAK5KSD1UW5Zex+T7IWIAVy5kykGRfD80O0uC7zRyhFw5KObfgE2+46tcRBKzQrYcFPPv+IZboLGdRkbIF6JivhfDcD8NttNICxlDVMz30xjvicLlYkrIGaJivifKfF+bjxnArQv5uom4JPvaCPYm+vuaQtYcFIu9iQSnLRCB2lwDsoboYn8pxR5h+ABuRcicg2KxR5hknzd4ANe0FqKqUO7Vh3YaTWshurJXn+a8BTAXm/aAy/MWRGdmYLP+pq0cFCtnZqgOXIAGcE1rObhy7olstz4kF5u2QnTt7BrZ+UNALjZtheja+UO6M6TVnUaTfai2KCtnSAnPAVfO+puWcnD9HDDlWe6qQG3ayUGROstNeR6/YgBnKQej0hus3qlAeQSxNBdbd3ZCNH2nAu35tbJOo23hRrqkpO7FoL3bpDAXW23XmjB1twnx/TQFA7jtHd/GrYJxSd9PQ33HUO4ALj48ZEuYuWOI+p6onFxsxTehWxJm74kiP7Ke6TS2k6veLQlz7voiv/0j1Wm0dpI8sCTMua+N/s699QHc+wE+O0K5fI5tKfxGfhx4pdNoLV4jsCP08u5NZLhaYZGL2/uLALEizL/7kuP+Uj85Y1rfWf7TVoQF95dyHFtvHJw8P5+svghiQ6gW83OFHDcLNhr++mPlNoSF9wh//LugP8F93jZuNfu9d7J/gnv1P/7bCLVzbqCF9y3CUiHH26p2hVVvlPDfJ/zb35n5+G8F/dvfe8o+Yv3R3uzKvrj6Gd9d+wRv532C9w9ZL2jnfMMy044WCj/+O6Sf4C3ZT/AecO3oo7/p/Ane5f4Eb6vXOq8sqcgilN3saK1ayNTxcwhld1DMKBHW+gxAFmHvsURRJmQZgzMId3Pf4wYJOdY06IVBet0CI2QgkgszCzM4IX23SC0s7giBQvJBOLEwyC5bYIXURFqhVwkECIkDlVRYGaIwIW1zQymsaEXhQlIioXAXAoQJa0d000UyofRKO3qksNYnG6NSCaW8rv61EcJa+Eo0mSISym7BlF5bWOvMaJKRRui9FU+XdIXqHU+KSCURBoBeQkNI094QCGWvaE3GVFgbjMyT0VzoTaEpiBeqIZxpNZoKpXeX/gZKKqwdYV56YBDKLiZCdYS1cN+sTTUTBi8lKzJEwlrt2DGpRhOhLFz2pRXWOjcG/Ya+UHpXeV/POIS12sVIO1S1hV439+MZk7DWGeqGqqZQBpe4JtRUGLU4N3odh5ZQevgWxlgYzTdmOumoIZTebdmSL58wSscxvh7RQhmc6SUghTAyPmCNSKEMpkY+Y2Ecq6g2ByWU3htwnssojIw3DiIh4UIpe3f31T/egjBqV4cjcLBChTLoXup08JlCIozKRduFIUFC6QW3hum3KFTCWu38aQyJ1mqh9HpnE5LqiwudMCqDw1mjqiYrhFHtvZyiZrhVhVQYlfC47ZQ+iFgilDLoXZ3S1V5SqIWq9A9nTpSV+cx8oZSeJ6anxl1DTuEQqtJ/aj8cuFFtpp1poYxwQe/sZfIIXh/EFS6hKmH/6WR/5Pi+70bSuXVzCYvqLeh1f349vR9ozhsghVOYlE7YPz4c7u2PH0YHB4mw251Ob+8mk8lz2GG0JeX/WxmCTpCoqDoAAAAASUVORK5CYII=">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>Page</title>
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <i class="bi bi-quote"></i>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a href="#" class="nav-item nav-link">Home</a>
+                            <a href="#" class="nav-item nav-link">Products</a>
+                            <a href="#" class="nav-item nav-link">Services</a>
+                            <a href="#" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="myFirstCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myFirstCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myFirstCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myFirstCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCGNL1TlL5Gt1hvX92uE-SdEvd_tCeR9moHQ&usqp=CAU"
+                            class="d-block w-100" alt="slide1img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="img-text">SandShiTech Company</h5>
+                            <pre>Hiring freshers for Software Develper.</pre>
+                            <a href="https://rockstechlabs.com/" target="_blank"><button type="button"
+                                    class="btn btn-primary" id="respo">
+                                    Sign up now
+                                </button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjoHkz2jvigtzweUdn1c_3temDqGUw5QH9yQ&usqp=CAU"
+                            class="d-block w-100" alt="slide2img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="img-text">SandShiTech Company</h5>
+                            <pre>Hiring freshers for QA Automation Engineer.</pre>
+                            <a href="https://rockstechlabs.com/" target="_blank"><button type="button"
+                                    class="btn btn-primary" id="respo">
+                                    Sign up now
+                                </button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8UllgshFxNAO_fT6fGB-VsEPEBwJWMNobZA&usqp=CAU"
+                            class="d-block w-100" alt="slide3img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="img-text">SandShiTech Company</h5>
+                            <pre>Hiring Experience candidate .</pre>
+                            <a href="https://rockstechlabs.com/" target="_blank"><button type="button"
+                                    class="btn btn-primary" id="respo">
+                                    Sign up now
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myFirstCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myFirstCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="banner-area section-padding custom-border">
+                <div class="wrapper">
+                    <div class="banner-text"></div>
+                </div>
+            </div>
+
+            <div style="padding: 2%;"></div>
+            <div class="row1">
+                <div class="card-group">
+                    <div class="card">
+                        <i class="bi bi-pencil-fill"></i>
+                        <div class="card-body">
+                            <h4>Contrary to popular</h4>
+                            <p class="card-text"><small class="text-muted">This is a wider card with delhi place
+                                    <br>supporting texa natural lead</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="bi bi-pc-display"></i>
+                        <div class="card-body">
+                            <h4>Contrary to popular</h4>
+                            <p class="card-text"><small class="text-muted">This is a wider card with delhi place
+                                    <br>supporting texa natural lead</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="bi bi-basket2"></i>
+                        <div class="card-body">
+                            <h4>Contrary to popular</h4>
+                            <p class="card-text"><small class="text-muted">This is a wider card with delhi place
+                                    <br>supporting texa natural lead</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row1">
+                <div id="Add" class="Clearfix">
+                    <div id="List">
+                        <h3>Some Bulltes text here</h3>
+                        <div style="padding-bottom: 10px;"></div>
+                        <p id="texts">
+                            This is a wider card with delhi place supporting tax natural.</br>
+                            lead India is great country with lots of culture and rituals.</br>
+                            This is a wider card with delhi place.</br>
+                            This is a wider card with delhi place supporting texa natural lead.</br>
+                            India is great country.
+                            with lots of culture and ritualsThis is a wider card with delhi place.</br>
+                        </p>
+                        <br>
+                        <br>
+                    </div>
+                    <div id="Plastic">
+                        <h1>The Shopping Cart</h1>
+                        <div style="padding-bottom: 15px;"></div>
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTxLNFxscB0MSxsknizFka0nIRRyV-kjmmWIbUqCquYBXQqoCyV"
+                            width="25%" height="30%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center>
+            <footer id="footer">Footer Content</footer>
+        </center>
+    </div>
+
+</body>
+
+</html>
